@@ -1,52 +1,13 @@
 title: Zhanibek's blog
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Zhanibeks' personal blog website, random thoughts and ideas.
+  Personal blog: random thoughts and ideas
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "isentropic.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: isentropic
-
-author:
-  name   : "Zhanibek O."
-  # avatar : "/assets/images/bio-photo.jpg"
-  bio    : "A physicist"
-  links:
-    - label: "isentropic"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/isentropic"
 # breadcrumbs: true
 # Build settings
-theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "dirt"
-include: ["_pages"]
-defaults:
-  # _pages:
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      read_time: true
-      author_profile: true
-      share: true
-      related: true
-
-# defaults:
-#   # _posts
-#   - scope:
-#       path: ""
-#       type: posts
-#     values:
-#       layout: single
-#       read_time: true
-#       comments: true
-#       share: true
-#       related: true
-#       show_date: true
+show_excerpts: true
+theme: minima
+header_pages:
+  - about.md
