@@ -5,30 +5,33 @@
 
     <!-- <h2 class="footer-heading">{{ site.title | escape }}</h2> -->
 
-    <div class="footer-col-wrapper">
-      <!-- <div class="footer-col footer-col-1"> -->
-      <!--   <ul class="contact-list"> -->
-      <!--     <li class="p-name"> -->
-      <!--       {%- if site.author -%} -->
-      <!--         <\!-- {{ site.author | escape }} -\-> -->
-      <!--       {%- else -%} -->
-      <!--         <\!-- {{ site.title | escape }} -\-> -->
-      <!--       {%- endif -%} -->
-      <!--       </li> -->
-      <!--       {%- if site.email -%} -->
-      <!--       <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li> -->
-      <!--       {%- endif -%} -->
-      <!--   </ul> -->
-      <!-- </div> -->
+    <!-- <div class="footer-col-wrapper"> -->
+    <!--   <div class="footer-col footer-col-1"> -->
+    <!--     <ul class="contact-list"> -->
+    <!--       <li class="p-name"> -->
+    <!--         {%- if site.author -%} -->
+    <!--           <\!-- {{ site.author | escape }} -\-> -->
+    <!--         {%- else -%} -->
+    <!--           <\!-- {{ site.title | escape }} -\-> -->
+    <!--         {%- endif -%} -->
+    <!--         </li> -->
+    <!--         {%- if site.email -%} -->
+    <!--         <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li> -->
+    <!--         {%- endif -%} -->
+    <!--     </ul> -->
+    <!--   </div> -->
 
-      <!-- <div class="footer-col footer-col-2"> -->
-      <!--   {%- include social.html -%} -->
-      <!-- </div> -->
+    <!--   <div class="footer-col footer-col-2"> --
+    <!--     {%- include social.html -%} -->
+    <!--   </div> -->
 
-      <div class="footer-col footer-col-3">
+      <!-- <div class="footer-col footer-col-3"> -->
+        <ul class="contact-list">
+        Email: {{ site.email }}
         {%- include social.html -%}
-        <p>{{- site.description | escape -}}</p>
-      </div>
+        </ul>
+        <!-- <p>{{- site.description | escape -}}</p> -->
+      <!-- </div> -->
     </div>
 
   </div>
