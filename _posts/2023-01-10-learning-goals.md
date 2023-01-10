@@ -41,6 +41,10 @@ Clojure's functional lisp lets you start thinking differently about the code. It
 is opposite to standard imperative non-lisp style in many ways.  There is no
 need to oversell this more.
 
+Featured resources:
+[Clojure for the brave and true](https://www.braveclojure.com/clojure-for-the-brave-and-true/) --- an amazing resource for beginners in clojure.
+[Example first docs](https://clojuredocs.org) (docs the right way). Also accessible from cider --- emacs clojure env.
+
 ## Web dev
 For people like me who never did webdev and cloud technologies, this is might
 sound like an odd choice, but I want to feel what it is all about. There are
@@ -50,7 +54,9 @@ there, I should create a basic ledger/gallery/utility webapp hosted on the
 cloud.
 
 There a million step-by-step tutorials for pretty much all the major frameworks,
-but my goal is to create something out-of-tutorial land. 
+but my goal is to create something out-of-tutorial land. The featured framework
+and the resource is [Genie](https://genieframework.com/) framework for Julia.
+Although it might sound absurd, it shows good signs. 
 
 
 ## Federated learning
