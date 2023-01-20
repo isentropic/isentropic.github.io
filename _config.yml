@@ -11,3 +11,5 @@ show_excerpts: true
 theme: minima
 header_pages:
   - about.md
+plugins:
+  - jekyll-seo-tag
